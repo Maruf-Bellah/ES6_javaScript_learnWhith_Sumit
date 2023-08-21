@@ -3,14 +3,14 @@ const display = document.querySelector(".result");
 const thanks = document.querySelector(".thanks");
 
 // Normal function that works perfectly 
-/* 
+
 function show(){
     display.innerHTML = this.value;
     var self = this;
     setTimeout(function (){
         thanks.innerHTML = `You have typed: ${self.value}`;
-    }, 1000);
-} */
+    }, 100);
+}
 
 // this eta shuro normal function er jnno arrow function this buje na 
 
@@ -18,8 +18,8 @@ function show(){
 
 
 // eta evabe hobe na eta korte hole normal function diye korte hobe 
-searchInput.addEventListener("keyup",() =>{
+/* searchInput.addEventListener("keyup",() =>{
     // console.log(this);
     display.innerHTML = this.value;
 
-});
+}); */
