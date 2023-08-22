@@ -1,5 +1,5 @@
 // truthy falsy 
-var myVar = 'hello'
+var myVar = [];
 
 // falsy value = 0, '', null, undefined, NaN
 
