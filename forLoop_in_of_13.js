@@ -21,22 +21,25 @@
 // }
 // console.log(i);
 
-// for in শুধু মাত্র Object এর জন্য ===============
-/* const myObj ={
-    name: 'JavaScript',
-    mobile: '01985511507',
-    funder: 'Brendan Eich',
+// for in শুধু মাত্র Object এর জন্য =====================================================================
+// const myObj ={
+//     name: 'JavaScript',
+//     mobile: '01985511507',
+//     funder: 'Brendan Eich',
+// };
+
+var billGates = {sirt:true, shirtColor: 'offWhite', smile: true, swatter: true, swatterColor: 'gay'};
+
+
+for(property in billGates){
+    console.log(property + ' = ' +' ' + billGates[property]);
 };
 
-for(property in myObj){
-    console.log(property + ' : ' +' ' + myObj[property]);
-}; */
+// for of এটা array এর জন্য ===========================================================
 
-// for of এটা array এর জন্য =============
-
-var myArray = [1, 2, 3, 4, 5, 6, 7, 8, 98]; // in দিলে index number দেখাবে আর of দিলে v number দেখাবে
+/* var myArray = [1, 2, 3, 4, 5, 6, 7, 8, 98]; // in দিলে index number দেখাবে আর of দিলে v number দেখাবে
 
 var myArry = 'Amar sonar';
 for(let show of myArry){
     console.log(show);
-}
+} */

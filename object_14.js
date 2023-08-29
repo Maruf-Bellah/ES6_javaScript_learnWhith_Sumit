@@ -23,4 +23,36 @@ var entrie = Object.entries(myObj); // একটা array দেয় এবং �
 // console.log(entrie);
 
 
-console.log(myObj);
+// console.log(myObj.name);
+
+var billGates = {sirt:true, shirtColor: 'offWhite', smile: true, swatter: true, swatterColor: 'gay'};
+
+
+var billGatesPro ={
+  sirt: {
+    color: 'offWhite',
+    quality:'Good',
+    price: '200 USD'
+  },
+  swatter:{
+    color: 'Gray',
+    quality: 'Good',
+    price: '200USD',
+    warm: 'best',
+    another: {
+      name: 'Maruf',
+      age: 20,
+      distric: 'Dhaka'
+    }
+  },
+  face:{
+    smiling: 'yes',
+    chosma: 'yes',
+    teeth: "White, big"
+  }
+};
+
+// console.log(billGates['shirtColor']);
+// console.log(billGates.swatter);
+
+console.log(billGatesPro['swatter']['another']['name']);// এভাবে একটার মধ্যে আরেকটা object এর value নেওয়া যায় 
