@@ -22,7 +22,7 @@ let numbers1 = [1,2,3,4];
 let numbers2 = [4,6,5,7,8,9]
 
 let showNumber = [...numbers1, ...numbers2];
-console.log(showNumber);
+// console.log(showNumber);
 
 let myObj ={
     x: 5,
@@ -37,3 +37,12 @@ let myObj2 ={
 console.log({
     ...myObj2 , ...myObj
 });
+
+
+const poorCountry = ['Bangladesh', 'Srilanka', 'Vutan'];
+
+const richeCountry =[...poorCountry,'America', 'Canada'];
+
+richeCountry.push(poorCountry)
+console.log(richeCountry);
+
