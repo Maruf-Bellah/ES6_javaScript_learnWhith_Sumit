@@ -118,8 +118,26 @@ javascript.printLibraries() */
 
     // eta jodi tumi arrow function e convert koro tahole error dibe 
 
-    var Person = (name) => {
-        this.name = name ;
-    };
+    // var Person = (name) => {
+    //    return this.name ="Maruf" ;
+    // };
+    // // var sakib = new Person("Sakib");
+    // console.log(Person());
 
-    var sakib = new Person("Sakib");
+    
+
+
+
+
+
+    // =====================================================================
+    // Rabbil hasan ===========
+    // =====================================================================
+
+    // Dynamic Function বলতে বুঝায় যে function কে আমরা একটা variable এর মধ্যে রাখি ======
+    // যে function লেখার সময় function constractor use করে লেখবো এবং সেই function এর কোন নাম থাকবে না তাকে dynamic function বলে 
+
+    var dynamicFunction = function(name){
+        return name;
+    }
+    console.log('Rabbil Hasan');
