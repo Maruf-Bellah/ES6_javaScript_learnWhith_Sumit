@@ -4,7 +4,7 @@
 
 
 
-// variable ===============================
+// variable ===============================================================================
 
 /* 
 var names = "maruf bellah";
@@ -25,7 +25,8 @@ const ayesha = 'ayesha bellah';
 */
 
 
-// variable scope =====================
+// variable scope =====================================================================
+/* 
 
 // var maruf = 'amar sonar bangla'; //global scope 
 function names(){
@@ -35,3 +36,26 @@ function names(){
 }
 names()
 // console.log(maruf);
+
+*/
+
+
+
+
+
+
+
+
+// variable Hoisting =========================================================
+
+// Hoisting মানে উত্তোলন 
+// Value assign আগে 
+// Declare পরে 
+
+// আগে value assign হবে তার পর Declare হবে তাহলে তাকে hoisting বলে 
+/* 
+maruf = "hey bro whatsup";
+console.log(maruf);
+let maruf;
+ */
+// hoisting শুধু var দিয়ে হয় , let and const দিয়ে হয় না 
