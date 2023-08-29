@@ -23,3 +23,15 @@ const ayesha = 'ayesha bellah';
 
 
 */
+
+
+// variable scope =====================
+
+// var maruf = 'amar sonar bangla'; //global scope 
+function names(){
+    var maruf = 'amar sonar bangla ami tomary valobashi'; // block scope or local scope
+    // console.log(maruf); 
+    return maruf;
+}
+names()
+// console.log(maruf);
