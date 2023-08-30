@@ -1,3 +1,43 @@
+// ==============================================================================
+// Rabbil Hasna 
+// ==============================================================================
+
+
+// simple function ============================================
+/* 
+function simpleFunction(){
+    let x =  5;
+    let y = 50;
+    let z = x + y ;
+    console.log(z);
+}
+simpleFunction()
+
+
+ */
+
+// paramitarize function ================================================
+/* 
+function paramitarizFunction(x, y){
+    let z = x + y;
+    console.log(z);
+    return z;
+}
+paramitarizFunction(50, 20)
+ */
+
+// rest function====================================================
+/* 
+function restFunction(...x){
+    // console.log(x); // সব ভ্যালু পেতে চাইলে 
+    console.log(x[2]); // যে ভ্যালু টা পেতে চান তার index number টা দিয়ে দেন  
+}
+restFunction(1,2,3,4,5,6,7,8,9, "a", "b", "c", "d");
+ */
+// ============================================================================
+// sumit vai 
+// ============================================================================
+
 /* function number(){
     return 10;
 }
@@ -137,7 +177,7 @@ javascript.printLibraries() */
     // Dynamic Function বলতে বুঝায় যে function কে আমরা একটা variable এর মধ্যে রাখি ======
     // যে function লেখার সময় function constractor use করে লেখবো এবং সেই function এর কোন নাম থাকবে না তাকে dynamic function বলে 
 
-    var dynamicFunction = function(name){
-        return name;
-    }
-    console.log('Rabbil Hasan');
+    // var dynamicFunction = function(name){
+    //     return name;
+    // }
+    // console.log('Rabbil Hasan');
