@@ -34,6 +34,18 @@ function restFunction(...x){
 }
 restFunction(1,2,3,4,5,6,7,8,9, "a", "b", "c", "d");
  */
+
+
+// return function==================================
+function functionOne(){
+    return 20;
+}
+
+function functionTwo(){
+    return functionOne;
+}
+
+console.log(functionOne());
 // ============================================================================
 // sumit vai 
 // ============================================================================
@@ -146,7 +158,7 @@ javascript.printLibraries() */
 
     javascript.printLibraries() */
 
-    // new keyword in fat arrow function 
+    // new keyword in fat arrow function ===================
 
 /*     function Person(name){
         this.name = name
@@ -156,6 +168,10 @@ javascript.printLibraries() */
     console.log(sakib); */
 
 
+    var myFun =(x) =>{
+        console.log(x);
+    }
+    myFun('amar sonar bangla ami tomay valobashi')
     // eta jodi tumi arrow function e convert koro tahole error dibe 
 
     // var Person = (name) => {
@@ -166,8 +182,21 @@ javascript.printLibraries() */
 
     
 
+    // Anonymous function======================================
 
+    //  * A function without a name 
+    //  * it can be declared dynamically a runtime 
+    //  * an anonymouse function can be assigned within a variable 
 
+    var myfunction = function(){
+        return 'hello';
+    }
+
+    var myfunction = function(){
+        return 'hello again'
+    }
+
+    console.log(myfunction());
 
 
     // =====================================================================
