@@ -9,4 +9,4 @@ var result= numbers.map((value , index, arr)=>{
     // console.log(arr);
 });
 console.log(result);
-console.log(numbers);
+// console.log(numbers);
