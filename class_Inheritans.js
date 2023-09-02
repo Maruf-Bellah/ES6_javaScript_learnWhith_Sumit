@@ -12,15 +12,22 @@ class parent{
 }
 class child extends parent {
 
-    hello3(){
+   /*  hello3(){
         console.log("Hello 3 function Hello 3 function");
         // cheler khomota babar khomota theke ektu beshi karon baba jokhon bura hoye jay tokhon chele jai bole babar ta shunte jai 
+    } */
+
+    demo(){
+        super.hello1();
+        super.hello2()
     }
 
 }
 
 var obj = new child();
 // var obj = new parent();
-obj.hello1()
-obj.hello2()
-obj.hello3()
+// obj.hello1()
+// obj.hello2()
+// obj.hello3()
+
+obj.demo()

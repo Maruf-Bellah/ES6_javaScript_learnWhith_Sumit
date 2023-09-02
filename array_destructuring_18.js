@@ -37,3 +37,14 @@ var b = 8;
 
 [b,a] = [a,b];
 console.log(a, b);
+
+
+
+// function destructuring ==============================
+
+function getName(){
+  return ['Maruf', 'Bellah'];
+};
+
+const [first, last] = getName();
+console.log(last, first);

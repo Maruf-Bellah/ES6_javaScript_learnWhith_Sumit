@@ -6,8 +6,11 @@
 
 
 // default ভাবে করতে চাইলে এভাবে করবে ============
-import  external, {maruf, pi} from './external.js'
+// import  external, {maruf, pi} from './external.js'
 
-console.log(maruf, pi);
+// console.log(maruf, pi);
 
-external()
+// external()
+
+import {pi} from './external.js'
+console.log(pi);
